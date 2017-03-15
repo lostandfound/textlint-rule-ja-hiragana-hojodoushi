@@ -24,6 +24,10 @@
   "directories": {
     "test": "test"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostandfound/textlint-rule-ja-hiragana-hojodoushi"
+  },
   "author": "Hiroshi Takase",
   "license": "MIT",
   "description": "Check easy-to-read Hojodoushi(auxiliary verbs) written in Hiragana than Kanji.",
