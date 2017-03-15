@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lostandfound/textlint-rule-ja-hiragana-hojodoushi"
+    "url": "git+https://github.com/lostandfound/textlint-rule-ja-hiragana-hojodoushi.git"
   },
   "author": "Hiroshi Takase",
   "license": "MIT",
