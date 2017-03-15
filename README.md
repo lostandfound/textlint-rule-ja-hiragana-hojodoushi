@@ -28,6 +28,12 @@ Via CLI
 textlint --rule ja-hiragana-hojodoushi README.md
 ```
 
+### Fixable
+
+```
+textlint --fix ja-hiragana-hojodoushi README.md
+```
+
 ### Build
 
 Builds source codes for publish to the `lib` folder.
