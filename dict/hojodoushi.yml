@@ -1,0 +1,639 @@
+message: ひらがなで表記したほうが読みやすい補助動詞
+dict:
+  - fix_form: いただく
+    supplemental: null
+    tokens:
+      - surface_form: 頂く
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 基本形
+        basic_form: 頂く
+        reading: イタダク
+        pronunciation: イタダク
+  - fix_form: いただか
+    supplemental: null
+    tokens:
+      - surface_form: 頂か
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 未然形
+        basic_form: 頂く
+        reading: イタダカ
+        pronunciation: イタダカ
+  - fix_form: いただこ
+    supplemental: null
+    tokens:
+      - surface_form: 頂こ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 未然ウ接続
+        basic_form: 頂く
+        reading: イタダコ
+        pronunciation: イタダコ
+  - fix_form: いただき
+    supplemental: null
+    tokens:
+      - surface_form: 頂き
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 連用形
+        basic_form: 頂く
+        reading: イタダキ
+        pronunciation: イタダキ
+  - fix_form: いただい
+    supplemental: null
+    tokens:
+      - surface_form: 頂い
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 連用タ接続
+        basic_form: 頂く
+        reading: イタダイ
+        pronunciation: イタダイ
+  - fix_form: いただけ
+    supplemental: null
+    tokens:
+      - surface_form: 頂け
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 仮定形
+        basic_form: 頂く
+        reading: イタダケ
+        pronunciation: イタダケ
+  - fix_form: いただけ
+    supplemental: null
+    tokens:
+      - surface_form: 頂け
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 命令ｅ
+        basic_form: 頂く
+        reading: イタダケ
+        pronunciation: イタダケ
+  - fix_form: いただきゃ
+    supplemental: null
+    tokens:
+      - surface_form: 頂きゃ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 仮定縮約１
+        basic_form: 頂く
+        reading: イタダキャ
+        pronunciation: イタダキャ
+  - fix_form: くださる
+    supplemental: null
+    tokens:
+      - surface_form: 下さる
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 基本形
+        basic_form: 下さる
+        reading: クダサル
+        pronunciation: クダサル
+  - fix_form: くださら
+    supplemental: null
+    tokens:
+      - surface_form: 下さら
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 未然形
+        basic_form: 下さる
+        reading: クダサラ
+        pronunciation: クダサラ
+  - fix_form: くださん
+    supplemental: null
+    tokens:
+      - surface_form: 下さん
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 未然特殊
+        basic_form: 下さる
+        reading: クダサン
+        pronunciation: クダサン
+  - fix_form: くださろ
+    supplemental: null
+    tokens:
+      - surface_form: 下さろ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 未然ウ接続
+        basic_form: 下さる
+        reading: クダサロ
+        pronunciation: クダサロ
+  - fix_form: ください
+    supplemental: null
+    tokens:
+      - surface_form: 下さい
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 連用形
+        basic_form: 下さる
+        reading: クダサイ
+        pronunciation: クダサイ
+  - fix_form: くださっ
+    supplemental: null
+    tokens:
+      - surface_form: 下さっ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 連用タ接続
+        basic_form: 下さる
+        reading: クダサッ
+        pronunciation: クダサッ
+  - fix_form: くだされ
+    supplemental: null
+    tokens:
+      - surface_form: 下され
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 仮定形
+        basic_form: 下さる
+        reading: クダサレ
+        pronunciation: クダサレ
+  - fix_form: くだされ
+    supplemental: null
+    tokens:
+      - surface_form: 下され
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 命令ｅ
+        basic_form: 下さる
+        reading: クダサレ
+        pronunciation: クダサレ
+  - fix_form: ください
+    supplemental: null
+    tokens:
+      - surface_form: 下さい
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 命令ｉ
+        basic_form: 下さる
+        reading: クダサイ
+        pronunciation: クダサイ
+  - fix_form: くださりゃ
+    supplemental: null
+    tokens:
+      - surface_form: 下さりゃ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・ラ行特殊
+        conjugated_form: 仮定縮約１
+        basic_form: 下さる
+        reading: クダサリャ
+        pronunciation: クダサリャ
+  - fix_form: いく
+    supplemental: null
+    tokens:
+      - surface_form: 行く
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便
+        conjugated_form: 基本形
+        basic_form: 行く
+        reading: イク
+        pronunciation: イク
+  - fix_form: いか
+    supplemental: null
+    tokens:
+      - surface_form: 行か
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便
+        conjugated_form: 未然形
+        basic_form: 行く
+        reading: イカ
+        pronunciation: イカ
+  - fix_form: いこ
+    supplemental: null
+    tokens:
+      - surface_form: 行こ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便
+        conjugated_form: 未然ウ接続
+        basic_form: 行く
+        reading: イコ
+        pronunciation: イコ
+  - fix_form: いき
+    supplemental: null
+    tokens:
+      - surface_form: 行き
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便
+        conjugated_form: 連用形
+        basic_form: 行く
+        reading: イキ
+        pronunciation: イキ
+  - fix_form: いっ
+    supplemental: null
+    tokens:
+      - surface_form: 行っ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便
+        conjugated_form: 連用タ接続
+        basic_form: 行く
+        reading: イッ
+        pronunciation: イッ
+  - fix_form: いけ
+    supplemental: null
+    tokens:
+      - surface_form: 行け
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便
+        conjugated_form: 仮定形
+        basic_form: 行く
+        reading: イケ
+        pronunciation: イケ
+  - fix_form: いけ
+    supplemental: null
+    tokens:
+      - surface_form: 行け
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便
+        conjugated_form: 命令ｅ
+        basic_form: 行く
+        reading: イケ
+        pronunciation: イケ
+  - fix_form: ゆく
+    supplemental: null
+    tokens:
+      - surface_form: 行く
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便ユク
+        conjugated_form: 基本形
+        basic_form: 行く
+        reading: ユク
+        pronunciation: ユク
+  - fix_form: ゆか
+    supplemental: null
+    tokens:
+      - surface_form: 行か
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便ユク
+        conjugated_form: 未然形
+        basic_form: 行く
+        reading: ユカ
+        pronunciation: ユカ
+  - fix_form: ゆこ
+    supplemental: null
+    tokens:
+      - surface_form: 行こ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便ユク
+        conjugated_form: 未然ウ接続
+        basic_form: 行く
+        reading: ユコ
+        pronunciation: ユコ
+  - fix_form: ゆき
+    supplemental: null
+    tokens:
+      - surface_form: 行き
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便ユク
+        conjugated_form: 連用形
+        basic_form: 行く
+        reading: ユキ
+        pronunciation: ユキ
+  - fix_form: ゆけ
+    supplemental: null
+    tokens:
+      - surface_form: 行け
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便ユク
+        conjugated_form: 仮定形
+        basic_form: 行く
+        reading: ユケ
+        pronunciation: ユケ
+  - fix_form: ゆけ
+    supplemental: null
+    tokens:
+      - surface_form: 行け
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便ユク
+        conjugated_form: 命令ｅ
+        basic_form: 行く
+        reading: ユケ
+        pronunciation: ユケ
+  - fix_form: ゆきゃ
+    supplemental: null
+    tokens:
+      - surface_form: 行きゃ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行促音便ユク
+        conjugated_form: 仮定縮約１
+        basic_form: 行く
+        reading: ユキャ
+        pronunciation: ユキャ
+  - fix_form: くる
+    supplemental: null
+    tokens:
+      - surface_form: 来る
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 基本形
+        basic_form: 来る
+        reading: クル
+        pronunciation: クル
+  - fix_form: こ
+    supplemental: null
+    tokens:
+      - surface_form: 来
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 未然形
+        basic_form: 来る
+        reading: コ
+        pronunciation: コ
+  - fix_form: こよ
+    supplemental: null
+    tokens:
+      - surface_form: 来よ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 未然ウ接続
+        basic_form: 来る
+        reading: コヨ
+        pronunciation: コヨ
+  - fix_form: き
+    supplemental: null
+    tokens:
+      - surface_form: 来
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 連用形
+        basic_form: 来る
+        reading: キ
+        pronunciation: キ
+  - fix_form: くれ
+    supplemental: null
+    tokens:
+      - surface_form: 来れ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 仮定形
+        basic_form: 来る
+        reading: クレ
+        pronunciation: クレ
+  - fix_form: こよ
+    supplemental: null
+    tokens:
+      - surface_form: 来よ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 命令ｙｏ
+        basic_form: 来る
+        reading: コヨ
+        pronunciation: コヨ
+  - fix_form: こい
+    supplemental: null
+    tokens:
+      - surface_form: 来い
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 命令ｉ
+        basic_form: 来る
+        reading: コイ
+        pronunciation: コイ
+  - fix_form: くりゃ
+    supplemental: null
+    tokens:
+      - surface_form: 来りゃ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 仮定縮約１
+        basic_form: 来る
+        reading: クリャ
+        pronunciation: クリャ
+  - fix_form: くん
+    supplemental: null
+    tokens:
+      - surface_form: 来ん
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 体言接続特殊
+        basic_form: 来る
+        reading: クン
+        pronunciation: クン
+  - fix_form: く
+    supplemental: null
+    tokens:
+      - surface_form: 来
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: カ変・来ル
+        conjugated_form: 体言接続特殊２
+        basic_form: 来る
+        reading: ク
+        pronunciation: ク
+  - fix_form: いたす
+    supplemental: null
+    tokens:
+      - surface_form: 致す
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 基本形
+        basic_form: 致す
+        reading: イタス
+        pronunciation: イタス
+  - fix_form: いたさ
+    supplemental: null
+    tokens:
+      - surface_form: 致さ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 未然形
+        basic_form: 致す
+        reading: イタサ
+        pronunciation: イタサ
+  - fix_form: いたそ
+    supplemental: null
+    tokens:
+      - surface_form: 致そ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 未然ウ接続
+        basic_form: 致す
+        reading: イタソ
+        pronunciation: イタソ
+  - fix_form: いたし
+    supplemental: null
+    tokens:
+      - surface_form: 致し
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 連用形
+        basic_form: 致す
+        reading: イタシ
+        pronunciation: イタシ
+  - fix_form: いたせ
+    supplemental: null
+    tokens:
+      - surface_form: 致せ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 仮定形
+        basic_form: 致す
+        reading: イタセ
+        pronunciation: イタセ
+  - fix_form: いたせ
+    supplemental: null
+    tokens:
+      - surface_form: 致せ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 命令ｅ
+        basic_form: 致す
+        reading: イタセ
+        pronunciation: イタセ
+  - fix_form: いたしゃ
+    supplemental: null
+    tokens:
+      - surface_form: 致しゃ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 仮定縮約１
+        basic_form: 致す
+        reading: イタシャ
+        pronunciation: イタシャ
