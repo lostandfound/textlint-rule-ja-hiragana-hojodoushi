@@ -67,6 +67,17 @@ tester.run("rule", rule, {
                 }
             ]
         },
+        {
+            text: "泣き出す",
+            output: "泣きだす",
+            errors: [
+                {
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"出す\" > \"だす\"",
+                    line: 1,
+                    column: 3
+                }
+            ]
+        },
         // multiple match
         {
             text: `許して頂いた。

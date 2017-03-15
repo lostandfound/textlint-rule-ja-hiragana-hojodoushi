@@ -637,3 +637,94 @@ dict:
         basic_form: 致す
         reading: イタシャ
         pronunciation: イタシャ
+  - fix_form: だす
+    supplemental: null
+    tokens:
+      - surface_form: 出す
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 基本形
+        basic_form: 出す
+        reading: ダス
+        pronunciation: ダス
+  - fix_form: ださ
+    supplemental: null
+    tokens:
+      - surface_form: 出さ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 未然形
+        basic_form: 出す
+        reading: ダサ
+        pronunciation: ダサ
+  - fix_form: だそ
+    supplemental: null
+    tokens:
+      - surface_form: 出そ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 未然ウ接続
+        basic_form: 出す
+        reading: ダソ
+        pronunciation: ダソ
+  - fix_form: だし
+    supplemental: null
+    tokens:
+      - surface_form: 出し
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 連用形
+        basic_form: 出す
+        reading: ダシ
+        pronunciation: ダシ
+  - fix_form: だせ
+    supplemental: null
+    tokens:
+      - surface_form: 出せ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 仮定形
+        basic_form: 出す
+        reading: ダセ
+        pronunciation: ダセ
+  - fix_form: だせ
+    supplemental: null
+    tokens:
+      - surface_form: 出せ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 命令ｅ
+        basic_form: 出す
+        reading: ダセ
+        pronunciation: ダセ
+  - fix_form: だしゃ
+    supplemental: null
+    tokens:
+      - surface_form: 出しゃ
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・サ行
+        conjugated_form: 仮定縮約１
+        basic_form: 出す
+        reading: ダシャ
+        pronunciation: ダシャ

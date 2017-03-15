@@ -57,6 +57,7 @@ Test textlint rule by [textlint-tester](https://github.com/textlint/textlint-tes
 | 〜して行く | 〜していく |
 | 〜して来る | 〜してくる |
 | 〜致します | 〜いたします |
+| 〜し出す | 〜しだす |
 
 ## License
 
