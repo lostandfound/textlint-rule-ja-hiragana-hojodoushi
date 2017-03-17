@@ -1,7 +1,7 @@
 message: ひらがなで表記したほうが読みやすい補助動詞
 dict:
-  - fix_form: いただく
-    supplemental: null
+  - expected: いただく
+    extensions: {}
     tokens:
       - surface_form: 頂く
         pos: 動詞
@@ -13,8 +13,8 @@ dict:
         basic_form: 頂く
         reading: イタダク
         pronunciation: イタダク
-  - fix_form: いただか
-    supplemental: null
+  - expected: いただか
+    extensions: {}
     tokens:
       - surface_form: 頂か
         pos: 動詞
@@ -26,8 +26,8 @@ dict:
         basic_form: 頂く
         reading: イタダカ
         pronunciation: イタダカ
-  - fix_form: いただこ
-    supplemental: null
+  - expected: いただこ
+    extensions: {}
     tokens:
       - surface_form: 頂こ
         pos: 動詞
@@ -39,8 +39,8 @@ dict:
         basic_form: 頂く
         reading: イタダコ
         pronunciation: イタダコ
-  - fix_form: いただき
-    supplemental: null
+  - expected: いただき
+    extensions: {}
     tokens:
       - surface_form: 頂き
         pos: 動詞
@@ -52,8 +52,8 @@ dict:
         basic_form: 頂く
         reading: イタダキ
         pronunciation: イタダキ
-  - fix_form: いただい
-    supplemental: null
+  - expected: いただい
+    extensions: {}
     tokens:
       - surface_form: 頂い
         pos: 動詞
@@ -65,8 +65,8 @@ dict:
         basic_form: 頂く
         reading: イタダイ
         pronunciation: イタダイ
-  - fix_form: いただけ
-    supplemental: null
+  - expected: いただけ
+    extensions: {}
     tokens:
       - surface_form: 頂け
         pos: 動詞
@@ -78,8 +78,8 @@ dict:
         basic_form: 頂く
         reading: イタダケ
         pronunciation: イタダケ
-  - fix_form: いただけ
-    supplemental: null
+  - expected: いただけ
+    extensions: {}
     tokens:
       - surface_form: 頂け
         pos: 動詞
@@ -91,8 +91,8 @@ dict:
         basic_form: 頂く
         reading: イタダケ
         pronunciation: イタダケ
-  - fix_form: いただきゃ
-    supplemental: null
+  - expected: いただきゃ
+    extensions: {}
     tokens:
       - surface_form: 頂きゃ
         pos: 動詞
@@ -104,8 +104,8 @@ dict:
         basic_form: 頂く
         reading: イタダキャ
         pronunciation: イタダキャ
-  - fix_form: くださる
-    supplemental: null
+  - expected: くださる
+    extensions: {}
     tokens:
       - surface_form: 下さる
         pos: 動詞
@@ -117,8 +117,8 @@ dict:
         basic_form: 下さる
         reading: クダサル
         pronunciation: クダサル
-  - fix_form: くださら
-    supplemental: null
+  - expected: くださら
+    extensions: {}
     tokens:
       - surface_form: 下さら
         pos: 動詞
@@ -130,8 +130,8 @@ dict:
         basic_form: 下さる
         reading: クダサラ
         pronunciation: クダサラ
-  - fix_form: くださん
-    supplemental: null
+  - expected: くださん
+    extensions: {}
     tokens:
       - surface_form: 下さん
         pos: 動詞
@@ -143,8 +143,8 @@ dict:
         basic_form: 下さる
         reading: クダサン
         pronunciation: クダサン
-  - fix_form: くださろ
-    supplemental: null
+  - expected: くださろ
+    extensions: {}
     tokens:
       - surface_form: 下さろ
         pos: 動詞
@@ -156,8 +156,8 @@ dict:
         basic_form: 下さる
         reading: クダサロ
         pronunciation: クダサロ
-  - fix_form: ください
-    supplemental: null
+  - expected: ください
+    extensions: {}
     tokens:
       - surface_form: 下さい
         pos: 動詞
@@ -169,8 +169,8 @@ dict:
         basic_form: 下さる
         reading: クダサイ
         pronunciation: クダサイ
-  - fix_form: くださっ
-    supplemental: null
+  - expected: くださっ
+    extensions: {}
     tokens:
       - surface_form: 下さっ
         pos: 動詞
@@ -182,8 +182,8 @@ dict:
         basic_form: 下さる
         reading: クダサッ
         pronunciation: クダサッ
-  - fix_form: くだされ
-    supplemental: null
+  - expected: くだされ
+    extensions: {}
     tokens:
       - surface_form: 下され
         pos: 動詞
@@ -195,8 +195,8 @@ dict:
         basic_form: 下さる
         reading: クダサレ
         pronunciation: クダサレ
-  - fix_form: くだされ
-    supplemental: null
+  - expected: くだされ
+    extensions: {}
     tokens:
       - surface_form: 下され
         pos: 動詞
@@ -208,8 +208,8 @@ dict:
         basic_form: 下さる
         reading: クダサレ
         pronunciation: クダサレ
-  - fix_form: ください
-    supplemental: null
+  - expected: ください
+    extensions: {}
     tokens:
       - surface_form: 下さい
         pos: 動詞
@@ -221,8 +221,8 @@ dict:
         basic_form: 下さる
         reading: クダサイ
         pronunciation: クダサイ
-  - fix_form: くださりゃ
-    supplemental: null
+  - expected: くださりゃ
+    extensions: {}
     tokens:
       - surface_form: 下さりゃ
         pos: 動詞
@@ -234,8 +234,8 @@ dict:
         basic_form: 下さる
         reading: クダサリャ
         pronunciation: クダサリャ
-  - fix_form: いく
-    supplemental: null
+  - expected: いく
+    extensions: {}
     tokens:
       - surface_form: 行く
         pos: 動詞
@@ -247,8 +247,8 @@ dict:
         basic_form: 行く
         reading: イク
         pronunciation: イク
-  - fix_form: いか
-    supplemental: null
+  - expected: いか
+    extensions: {}
     tokens:
       - surface_form: 行か
         pos: 動詞
@@ -260,8 +260,8 @@ dict:
         basic_form: 行く
         reading: イカ
         pronunciation: イカ
-  - fix_form: いこ
-    supplemental: null
+  - expected: いこ
+    extensions: {}
     tokens:
       - surface_form: 行こ
         pos: 動詞
@@ -273,8 +273,8 @@ dict:
         basic_form: 行く
         reading: イコ
         pronunciation: イコ
-  - fix_form: いき
-    supplemental: null
+  - expected: いき
+    extensions: {}
     tokens:
       - surface_form: 行き
         pos: 動詞
@@ -286,8 +286,8 @@ dict:
         basic_form: 行く
         reading: イキ
         pronunciation: イキ
-  - fix_form: いっ
-    supplemental: null
+  - expected: いっ
+    extensions: {}
     tokens:
       - surface_form: 行っ
         pos: 動詞
@@ -299,8 +299,8 @@ dict:
         basic_form: 行く
         reading: イッ
         pronunciation: イッ
-  - fix_form: いけ
-    supplemental: null
+  - expected: いけ
+    extensions: {}
     tokens:
       - surface_form: 行け
         pos: 動詞
@@ -312,8 +312,8 @@ dict:
         basic_form: 行く
         reading: イケ
         pronunciation: イケ
-  - fix_form: いけ
-    supplemental: null
+  - expected: いけ
+    extensions: {}
     tokens:
       - surface_form: 行け
         pos: 動詞
@@ -325,8 +325,8 @@ dict:
         basic_form: 行く
         reading: イケ
         pronunciation: イケ
-  - fix_form: ゆく
-    supplemental: null
+  - expected: ゆく
+    extensions: {}
     tokens:
       - surface_form: 行く
         pos: 動詞
@@ -338,8 +338,8 @@ dict:
         basic_form: 行く
         reading: ユク
         pronunciation: ユク
-  - fix_form: ゆか
-    supplemental: null
+  - expected: ゆか
+    extensions: {}
     tokens:
       - surface_form: 行か
         pos: 動詞
@@ -351,8 +351,8 @@ dict:
         basic_form: 行く
         reading: ユカ
         pronunciation: ユカ
-  - fix_form: ゆこ
-    supplemental: null
+  - expected: ゆこ
+    extensions: {}
     tokens:
       - surface_form: 行こ
         pos: 動詞
@@ -364,8 +364,8 @@ dict:
         basic_form: 行く
         reading: ユコ
         pronunciation: ユコ
-  - fix_form: ゆき
-    supplemental: null
+  - expected: ゆき
+    extensions: {}
     tokens:
       - surface_form: 行き
         pos: 動詞
@@ -377,8 +377,8 @@ dict:
         basic_form: 行く
         reading: ユキ
         pronunciation: ユキ
-  - fix_form: ゆけ
-    supplemental: null
+  - expected: ゆけ
+    extensions: {}
     tokens:
       - surface_form: 行け
         pos: 動詞
@@ -390,8 +390,8 @@ dict:
         basic_form: 行く
         reading: ユケ
         pronunciation: ユケ
-  - fix_form: ゆけ
-    supplemental: null
+  - expected: ゆけ
+    extensions: {}
     tokens:
       - surface_form: 行け
         pos: 動詞
@@ -403,8 +403,8 @@ dict:
         basic_form: 行く
         reading: ユケ
         pronunciation: ユケ
-  - fix_form: ゆきゃ
-    supplemental: null
+  - expected: ゆきゃ
+    extensions: {}
     tokens:
       - surface_form: 行きゃ
         pos: 動詞
@@ -416,8 +416,8 @@ dict:
         basic_form: 行く
         reading: ユキャ
         pronunciation: ユキャ
-  - fix_form: くる
-    supplemental: null
+  - expected: くる
+    extensions: {}
     tokens:
       - surface_form: 来る
         pos: 動詞
@@ -429,8 +429,8 @@ dict:
         basic_form: 来る
         reading: クル
         pronunciation: クル
-  - fix_form: こ
-    supplemental: null
+  - expected: こ
+    extensions: {}
     tokens:
       - surface_form: 来
         pos: 動詞
@@ -442,8 +442,8 @@ dict:
         basic_form: 来る
         reading: コ
         pronunciation: コ
-  - fix_form: こよ
-    supplemental: null
+  - expected: こよ
+    extensions: {}
     tokens:
       - surface_form: 来よ
         pos: 動詞
@@ -455,8 +455,8 @@ dict:
         basic_form: 来る
         reading: コヨ
         pronunciation: コヨ
-  - fix_form: き
-    supplemental: null
+  - expected: き
+    extensions: {}
     tokens:
       - surface_form: 来
         pos: 動詞
@@ -468,8 +468,8 @@ dict:
         basic_form: 来る
         reading: キ
         pronunciation: キ
-  - fix_form: くれ
-    supplemental: null
+  - expected: くれ
+    extensions: {}
     tokens:
       - surface_form: 来れ
         pos: 動詞
@@ -481,8 +481,8 @@ dict:
         basic_form: 来る
         reading: クレ
         pronunciation: クレ
-  - fix_form: こよ
-    supplemental: null
+  - expected: こよ
+    extensions: {}
     tokens:
       - surface_form: 来よ
         pos: 動詞
@@ -494,8 +494,8 @@ dict:
         basic_form: 来る
         reading: コヨ
         pronunciation: コヨ
-  - fix_form: こい
-    supplemental: null
+  - expected: こい
+    extensions: {}
     tokens:
       - surface_form: 来い
         pos: 動詞
@@ -507,8 +507,8 @@ dict:
         basic_form: 来る
         reading: コイ
         pronunciation: コイ
-  - fix_form: くりゃ
-    supplemental: null
+  - expected: くりゃ
+    extensions: {}
     tokens:
       - surface_form: 来りゃ
         pos: 動詞
@@ -520,8 +520,8 @@ dict:
         basic_form: 来る
         reading: クリャ
         pronunciation: クリャ
-  - fix_form: くん
-    supplemental: null
+  - expected: くん
+    extensions: {}
     tokens:
       - surface_form: 来ん
         pos: 動詞
@@ -533,8 +533,8 @@ dict:
         basic_form: 来る
         reading: クン
         pronunciation: クン
-  - fix_form: く
-    supplemental: null
+  - expected: く
+    extensions: {}
     tokens:
       - surface_form: 来
         pos: 動詞
@@ -546,8 +546,8 @@ dict:
         basic_form: 来る
         reading: ク
         pronunciation: ク
-  - fix_form: いたす
-    supplemental: null
+  - expected: いたす
+    extensions: {}
     tokens:
       - surface_form: 致す
         pos: 動詞
@@ -559,8 +559,8 @@ dict:
         basic_form: 致す
         reading: イタス
         pronunciation: イタス
-  - fix_form: いたさ
-    supplemental: null
+  - expected: いたさ
+    extensions: {}
     tokens:
       - surface_form: 致さ
         pos: 動詞
@@ -572,8 +572,8 @@ dict:
         basic_form: 致す
         reading: イタサ
         pronunciation: イタサ
-  - fix_form: いたそ
-    supplemental: null
+  - expected: いたそ
+    extensions: {}
     tokens:
       - surface_form: 致そ
         pos: 動詞
@@ -585,8 +585,8 @@ dict:
         basic_form: 致す
         reading: イタソ
         pronunciation: イタソ
-  - fix_form: いたし
-    supplemental: null
+  - expected: いたし
+    extensions: {}
     tokens:
       - surface_form: 致し
         pos: 動詞
@@ -598,8 +598,8 @@ dict:
         basic_form: 致す
         reading: イタシ
         pronunciation: イタシ
-  - fix_form: いたせ
-    supplemental: null
+  - expected: いたせ
+    extensions: {}
     tokens:
       - surface_form: 致せ
         pos: 動詞
@@ -611,8 +611,8 @@ dict:
         basic_form: 致す
         reading: イタセ
         pronunciation: イタセ
-  - fix_form: いたせ
-    supplemental: null
+  - expected: いたせ
+    extensions: {}
     tokens:
       - surface_form: 致せ
         pos: 動詞
@@ -624,8 +624,8 @@ dict:
         basic_form: 致す
         reading: イタセ
         pronunciation: イタセ
-  - fix_form: いたしゃ
-    supplemental: null
+  - expected: いたしゃ
+    extensions: {}
     tokens:
       - surface_form: 致しゃ
         pos: 動詞
@@ -637,8 +637,8 @@ dict:
         basic_form: 致す
         reading: イタシャ
         pronunciation: イタシャ
-  - fix_form: だす
-    supplemental: null
+  - expected: だす
+    extensions: {}
     tokens:
       - surface_form: 出す
         pos: 動詞
@@ -650,8 +650,8 @@ dict:
         basic_form: 出す
         reading: ダス
         pronunciation: ダス
-  - fix_form: ださ
-    supplemental: null
+  - expected: ださ
+    extensions: {}
     tokens:
       - surface_form: 出さ
         pos: 動詞
@@ -663,8 +663,8 @@ dict:
         basic_form: 出す
         reading: ダサ
         pronunciation: ダサ
-  - fix_form: だそ
-    supplemental: null
+  - expected: だそ
+    extensions: {}
     tokens:
       - surface_form: 出そ
         pos: 動詞
@@ -676,8 +676,8 @@ dict:
         basic_form: 出す
         reading: ダソ
         pronunciation: ダソ
-  - fix_form: だし
-    supplemental: null
+  - expected: だし
+    extensions: {}
     tokens:
       - surface_form: 出し
         pos: 動詞
@@ -689,8 +689,8 @@ dict:
         basic_form: 出す
         reading: ダシ
         pronunciation: ダシ
-  - fix_form: だせ
-    supplemental: null
+  - expected: だせ
+    extensions: {}
     tokens:
       - surface_form: 出せ
         pos: 動詞
@@ -702,8 +702,8 @@ dict:
         basic_form: 出す
         reading: ダセ
         pronunciation: ダセ
-  - fix_form: だせ
-    supplemental: null
+  - expected: だせ
+    extensions: {}
     tokens:
       - surface_form: 出せ
         pos: 動詞
@@ -715,8 +715,8 @@ dict:
         basic_form: 出す
         reading: ダセ
         pronunciation: ダセ
-  - fix_form: だしゃ
-    supplemental: null
+  - expected: だしゃ
+    extensions: {}
     tokens:
       - surface_form: 出しゃ
         pos: 動詞

@@ -21,8 +21,8 @@ function readdirPromise(dir){
 function createEntry(file){
   return reader.read(file, function (data) {
     let entry = {
-      fix_form: data[4],
-      supplemental: null,
+      expected: data[4],
+      extensions: {},
       tokens: []
     };
 

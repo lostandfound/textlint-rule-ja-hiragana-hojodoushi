@@ -11,13 +11,13 @@ tester.run("rule", rule, {
     ],
 
     invalid: [
-        // single match fukushi
+        // single match
         {
             text: "して頂く",
             output: "していただく",
             errors: [
                 {
-                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"頂く\" > \"いただく\"",
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"頂く\" => \"いただく\"",
                     line: 1,
                     column: 3
                 }
@@ -28,7 +28,7 @@ tester.run("rule", rule, {
             output: "してください",
             errors: [
                 {
-                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"下さい\" > \"ください\"",
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"下さい\" => \"ください\"",
                     line: 1,
                     column: 3
                 }
@@ -39,7 +39,7 @@ tester.run("rule", rule, {
             output: "していく",
             errors: [
                 {
-                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"行く\" > \"いく\"",
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"行く\" => \"いく\"",
                     line: 1,
                     column: 3
                 }
@@ -50,7 +50,7 @@ tester.run("rule", rule, {
             output: "してきて",
             errors: [
                 {
-                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"来\" > \"き\"",
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"来\" => \"き\"",
                     line: 1,
                     column: 3
                 }
@@ -61,7 +61,7 @@ tester.run("rule", rule, {
             output: "お願いいたします",
             errors: [
                 {
-                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"致し\" > \"いたし\"",
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"致し\" => \"いたし\"",
                     line: 1,
                     column: 4
                 }
@@ -72,7 +72,7 @@ tester.run("rule", rule, {
             output: "泣きだす",
             errors: [
                 {
-                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"出す\" > \"だす\"",
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"出す\" => \"だす\"",
                     line: 1,
                     column: 3
                 }
@@ -88,12 +88,12 @@ tester.run("rule", rule, {
 見てこよう。`,
             errors: [
                 {
-                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"頂い\" > \"いただい\"",
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"頂い\" => \"いただい\"",
                     line: 1,
                     column: 4
                 },
                 {
-                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"来よ\" > \"こよ\"",
+                    message: "ひらがなで表記したほうが読みやすい補助動詞: \"来よ\" => \"こよ\"",
                     line: 3,
                     column: 3
                 }

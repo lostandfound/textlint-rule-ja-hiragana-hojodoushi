@@ -14,8 +14,8 @@ data.dict.forEach(function(item) {
     form += token.surface_form;
   });
   dictionaries.push({
-    message: data.message + ": \"" + form + "\" > \"" + item.fix_form + "\"",
-    fix: item.fix_form,
+    message: data.message + ": \"" + form + "\" => \"" + item.expected + "\"",
+    fix: item.expected,
     tokens: item.tokens
   });
 });
