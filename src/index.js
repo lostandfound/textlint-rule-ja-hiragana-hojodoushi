@@ -4,25 +4,12 @@ const fs = require("fs");
 const kuromojin = require("kuromojin");
 const createMatcher = require("morpheme-match-all");
 const yaml = require("js-yaml");
-const data = yaml.safeLoad(fs.readFileSync(__dirname + "/../dict/hojodoushi.yml", "utf8"));
 
-const dictionaries = [];
+const defaultOptions = {
+  rulePath: __dirname + "/../dict/hojodoushi.yml"
+};
 
-data.dict.forEach(function(item) {
-  var form = "";
-  item.tokens.forEach(function(token) {
-    form += token.surface_form;
-  });
-  dictionaries.push({
-    message: data.message + ": \"" + form + "\" => \"" + item.expected + "\"",
-    fix: item.expected,
-    tokens: item.tokens
-  });
-});
-
-const matchAll = createMatcher(dictionaries);
-
-function reporter(context, options = {}) {
+function reporter(context, userOptions = {}) {
   const {
     Syntax,
     RuleError,
@@ -30,6 +17,24 @@ function reporter(context, options = {}) {
     getSource,
     fixer
   } = context;
+  const options = Object.assign(defaultOptions, userOptions);
+  const data = yaml.safeLoad(fs.readFileSync(options.rulePath, "utf8"));
+  const dictionaries = [];
+
+  data.dict.forEach(function(item) {
+    var form = "";
+    item.tokens.forEach(function(token) {
+      form += token.surface_form;
+    });
+    dictionaries.push({
+      message: data.message + ": \"" + form + "\" => \"" + item.expected + "\"",
+      fix: item.expected,
+      tokens: item.tokens
+    });
+  });
+
+  const matchAll = createMatcher(dictionaries);
+
   return {
     [Syntax.Str](node) { // "Str" node
       const text = getSource(node); // Get text
