@@ -33,7 +33,7 @@ function reporter(context, options = {}) {
   return {
     [Syntax.Str](node) { // "Str" node
       const text = getSource(node); // Get text
-      return kuromojin(text).then((actualTokens) => {
+      return kuromojin.tokenize(text).then((actualTokens) => {
         const results = matchAll(actualTokens);
 
         if (results.length == 0) {
