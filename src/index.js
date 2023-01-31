@@ -4,7 +4,8 @@ const fs = require("fs");
 const kuromojin = require("kuromojin");
 const createMatcher = require("morpheme-match-all");
 const yaml = require("js-yaml");
-const data = yaml.safeLoad(fs.readFileSync(__dirname + "/../dict/hojodoushi.yml", "utf8"));
+const untildify = require("untildify");
+const data = yaml.safeLoad(fs.readFileSync(untildify(__dirname + "/../dict/hojodoushi.yml"), "utf8"));
 
 const dictionaries = [];
 
