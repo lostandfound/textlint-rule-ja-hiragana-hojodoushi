@@ -1,0 +1,15 @@
+message: rulePath test
+dict:
+  - expected: いただく
+    extensions: {}
+    tokens:
+      - surface_form: 頂く
+        pos: 動詞
+        pos_detail_1: 非自立
+        pos_detail_2: '*'
+        pos_detail_3: '*'
+        conjugated_type: 五段・カ行イ音便
+        conjugated_form: 基本形
+        basic_form: 頂く
+        reading: イタダク
+        pronunciation: イタダク

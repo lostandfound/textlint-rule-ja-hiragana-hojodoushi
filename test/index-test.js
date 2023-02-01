@@ -7,7 +7,16 @@ const rule = require("../src/index");
 tester.run("rule", rule, {
     valid: [
         // no problem
-        "text",
+        {
+            text: "text"
+        },
+        // with rulePath
+        {
+            text: "text",
+            options: {
+                rulePath: "./test/custom.yml"
+            }
+        }
     ],
 
     invalid: [
@@ -95,6 +104,21 @@ tester.run("rule", rule, {
                 {
                     message: "ひらがなで表記したほうが読みやすい補助動詞: \"来よ\" => \"こよ\"",
                     line: 3,
+                    column: 3
+                }
+            ]
+        },
+        // with rulePath
+        {
+            text: "して頂く",
+            options: {
+                rulePath: "./test/custom.yml"
+            },
+            output: "していただく",
+            errors: [
+                {
+                    message: "rulePath test: \"頂く\" => \"いただく\"",
+                    line: 1,
                     column: 3
                 }
             ]
