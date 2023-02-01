@@ -35,6 +35,7 @@
   "dependencies": {
     "js-yaml": "^3.8.2",
     "kuromojin": "^2.1.1",
-    "morpheme-match-all": "^1.1.0"
+    "morpheme-match-all": "^1.1.0",
+    "untildify": "^4.0.0"
   }
 }
