@@ -22,6 +22,18 @@ Via `.textlintrc`(Recommended)
 }
 ```
 
+Or you can specify custom dictionary as follows:
+
+```
+{
+    "rules": {
+        "ja-hiragana-hojodoushi": {
+          "rulePath": "path/to/custom.yml"
+        }
+    }
+}
+```
+
 Via CLI
 
 ```
