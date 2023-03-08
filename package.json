@@ -34,7 +34,7 @@
   "description": "Check easy-to-read Hojodoushi(auxiliary verbs) written in Hiragana than Kanji.",
   "dependencies": {
     "js-yaml": "^3.8.2",
-    "kuromojin": "^2.1.1",
+    "kuromojin": "^3.0.0",
     "morpheme-match-all": "^1.1.0",
     "untildify": "^4.0.0"
   }
